@@ -1,0 +1,69 @@
+Difference between HTTP/1.1 and HTTP/2
+
+      HTTP/1.1                        HTTP/2
+
+1.It uses works on the         It works on binary protocal 
+  textual format
+
+2.There is head of the         It allows multiplexing. so one
+  blocks all the request       TCP connecter is request for 
+  behind it doesn't get        multiple request
+  its all resources                                       
+   
+
+3.It uses request resource     It uses push frame by server that
+  inliming for use getting     collect all multiple pages
+  multiple pager
+
+4.It compresser data by it     It uses HPACK for data compression
+  self.
+
+
+
+Object and internal Representation in Javascript:
+
+ Object in Javascript is most important data type and forms the building
+ blocks for modern Javascript. 
+ 
+ These objects are quite different from Javascript is primitive data types
+ (EX)(Number,string,Boolean,null,undefind)
+ 
+ In the sense that while these primitive data types all store a single value each
+ 
+ Variable that are assigned a reference value are given pointer that value
+
+OBJECTS AND PROPERTIES:
+
+  A Javascript object has properties associated with it.
+  
+  A properties of object can be explained as a variable that is attached to the object
+  
+  object properties are basically the same as ordinary javascript variables.
+  
+  you access the properties as an object with a simple dot.otation
+      
+       Object name.property Name
+     
+   
+ CREATE JAVASCRIPT OBJECT WITH OBJECT LITERAL
+
+    One of easiest way to create a jaascript object is object literal
+
+(EX)
+    let bike={name:'Hondaunicon',maker:"Honda",engine:'180cc'}
+
+JAVASCRIPT CONSTRUCTOR
+
+   Constructor is nothing but a function and with help of new keyword
+   
+   function variables(name,maker){
+   this.name=name;
+   this.maker=maker;
+}
+  let car1=new vechile('swift' 'maruthi')
+  let car2=new vechile('kwid'  'renault')
+   
+    console.log (car1.name); // outout:swift
+    console.log (car2.name); // output:kwid
+ 
+ 
